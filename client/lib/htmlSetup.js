@@ -1,3 +1,4 @@
+
 let req = new XMLHttpRequest();
 
 export function submitCRUD(CRUDType, data, id = "") {                           
@@ -17,9 +18,9 @@ export function addHTMLElement(type, parent, options = {}) {
 
 export function addDependencies(someDependencies) {
     someDependencies.map(each => (
-	addHTMLElement("script", document.body,
-		       {type:"text/javascript", src:each}
-		      )
+		addHTMLElement("script", document.body,
+		    {type:"text/javascript", src:each}
+		)
     ));
 };
 
