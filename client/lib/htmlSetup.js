@@ -1,4 +1,3 @@
-
 let req = new XMLHttpRequest();
 
 export function submitCRUD(CRUDType, data, id = "") {                           
